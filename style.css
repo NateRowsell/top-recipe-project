@@ -1,0 +1,43 @@
+.a1 {
+
+    height: auto;
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+    margin-right: 20px;
+
+    
+}
+
+#pancake , #soup , #salad  {
+
+    height: 300px;
+    width: 250px;
+    float: left;
+    padding-right: 10px;
+    margin-right: 20px;
+    border: black;
+    border-radius: 15%;
+
+}
+
+body {
+
+    background-color: whitesmoke;
+    
+}
+
+#hometitle {
+
+    background-color: black;
+    color: whitesmoke;
+    height: 75px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#homep {
+
+    text-align: center;
+    font-size: 24px;
+}
