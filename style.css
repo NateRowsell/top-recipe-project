@@ -41,3 +41,11 @@ body {
     text-align: center;
     font-size: 24px;
 }
+
+button {
+    background-color: grey;
+    border-radius: 75%;
+    color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
