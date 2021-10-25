@@ -104,3 +104,50 @@ button {
     background-blend-mode: multiply;
 }
 
+.ingredients {
+
+    display: grid;
+    height: 700px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    height: fit-content;
+
+}
+
+.ilist {
+
+    grid-row: span 5;
+    grid-column: span 2;
+}
+
+.empty {
+
+    grid-row: span 5;
+    grid-column: span 2;
+    background-image: url(https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=780&q=80);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.instructions {
+
+    grid-row: span 1;
+    grid-column: span 4;
+}
+
+.steps {
+
+    margin-left: 25px;
+    padding: 25px;
+}
+
+/* this adds spacing to list items */
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
